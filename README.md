@@ -3,18 +3,19 @@ Objective HTML.  It uses a JavaScript PreProcessor to build a webpage based on a
 
 This library was born out of the need for a universal language.
 Many people use SASS for CSS and CoffeeScript for JavaScript.  I 
-think it would be to tbe benefit of the internet to consolidate
+think it would be to the benefit of the internet to consolidate
 psudeo languages into one.  And, this is my first attempt at it.
-ObjHTML is a JavaScript object language which uses an interpretter
+ObjHTML is a JavaScript based language which uses an interpretter
 to compile and run in browser.
 
 The goal is to no longer have to cross reference id's and class's
-accross HTML, JavaScript, and CSS by allowing you to write in all
+across HTML, JavaScript, and CSS by allowing you to write in all
 of those attributes in line.
 
 Refer to the following code:
 
-```<body></body>
+```
+<body></body>
 <script src="htmlobj.js"></script>
 <script>
 
@@ -61,4 +62,13 @@ the file to modify the HTML object.
 The program comes with a strong jQuery backbone, allowing you to conviently access
 many of the core jQuery functions like click, and etc.
 
+The syntax is very simple.  All you have to do is include our library and jquery's:
 
+```
+<body></body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="htmlobj.js"></script>
+```
+
+Next, you can start defining your own HTML objects like layed out in the above
+code example.  What is featured here should be plenty to get you started.
