@@ -13,7 +13,8 @@ accross HTML, JavaScript, and CSS by allowing you to write in all
 of those attributes in line.
 
 Refer to the following code:
-<body></body>
+
+```<body></body>
 <script src="htmlobj.js"></script>
 <script>
 
@@ -49,6 +50,7 @@ setTimeout(function () {
 },1000);
 
 </script>
+```
 
 It is a very basic file written in Objective HTML.  You can write in
 line hover operations by using ":".  You can use "/" to store information
